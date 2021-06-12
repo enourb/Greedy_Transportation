@@ -1,0 +1,11 @@
+% 6 nodes
+% 5 edges
+
+for a1 = 0:1
+    for a2 = 0:1
+        for a1 = 0:1
+            for a2 = 0:1
+                for a1 = 0:1
+                    for a2 = 0:1
+                        for a1 = 0:1
+                            for a2 = 0:1
