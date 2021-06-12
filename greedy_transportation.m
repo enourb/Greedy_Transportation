@@ -1,3 +1,6 @@
+% Greedy Algorithm Code
+% Clear Workspace before running
+
 % profit matrix
 P = [0 4 8 3 3 4;
      0 0 4 5 4 6;
@@ -49,7 +52,9 @@ for t = 1:time
         J = weightadj(G, L);
     end
 end
-N
+% net benefit of remaining edges
+N;
+% adjacency matrix at time t
 G
 % Weighted Adjacency Matrix by Length
 function D = weightadj(G, L)

@@ -1,5 +1,6 @@
 % This code generates an array that contains all
 % 6 node graphs with 5 edges
+% Clear Workspace before running
 
 W = {};
 for a1 = 0:1

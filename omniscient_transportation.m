@@ -1,4 +1,5 @@
-
+% Omniscient Algorithm Code
+% Clear Workspace before running
 
 % profit matrix
 P = [0 4 8 3 3 4;
@@ -55,7 +56,7 @@ end
 max_graph;
 % optimal value
 max
-% total value
+% greedy value
 greedy = total(P, B, QJ, Q)
 % greedy compared to total
 greedy/max
